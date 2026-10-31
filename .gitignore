@@ -178,3 +178,7 @@ sphinx_*/
 
 # Rust analyzer configuration
 /rust-project.json
+
+# 我的添加
+Build/
+!.vscode/

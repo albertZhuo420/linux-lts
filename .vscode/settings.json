@@ -1,0 +1,41 @@
+{
+	"C_Cpp.intelliSenseEngine": "disabled",
+	"clangd.arguments": [
+		"--compile-commands-dir=${workspaceFolder}",
+		"--background-index",
+		"--clang-tidy=false",
+		"--header-insertion=never",
+		"--completion-style=detailed"
+	],
+	"files.associations": {
+		"*.h": "c",
+		"*.c": "c",
+		"*.S": "asm",
+		"*.dts": "dts",
+		"*.dtsi": "dts",
+		"Kconfig": "kconfig"
+	},
+	"search.exclude": {
+		"**/.git": true,
+		"**/Build": true,
+		"**/*.o": true,
+		"**/*.ko": true,
+		"**/*.mod": true,
+		"**/*.mod.c": true,
+		"**/*.cmd": true,
+		"**/modules.order": true,
+		"**/Module.symvers": true
+	},
+	"files.watcherExclude": {
+		"**/.git/**": true,
+		"**/Build/**": true,
+		"**/*.o": true,
+		"**/*.ko": true,
+		"**/*.cmd": true
+	},
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.rulers": [],
+	"C_Cpp.errorSquiggles": "disabled"
+}
